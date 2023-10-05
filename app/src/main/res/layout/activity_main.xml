@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/n1"
+        android:layout_width="350dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="6dp"
+        android:background="#2196F3"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:text="NUMERO 1"
+        android:textSize="23sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="4dp"
+        android:text="NUMERO 2"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.007"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/n1" />
+
+    <EditText
+        android:id="@+id/n2"
+        android:layout_width="347dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/material_dynamic_primary50"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/btnSuma"
+        android:layout_width="365dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:textColor="@color/black"
+        android:hapticFeedbackEnabled="false"
+        android:text="@string/btnSuma"
+        android:textSize="20sp"
+        app:cornerRadius="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/n2" />
+
+    <Button
+        android:id="@+id/btnResta"
+        android:layout_width="363dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:textColor="@color/black"
+        android:text="@string/btnResta"
+        android:textSize="20sp"
+        app:cornerRadius="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSuma" />
+
+    <Button
+        android:id="@+id/btnDivision"
+        android:layout_width="361dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:textColor="@color/black"
+        android:hapticFeedbackEnabled="false"
+        android:text="@string/btnDivision"
+        android:textSize="20sp"
+        app:cornerRadius="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnResta" />
+
+    <Button
+        android:id="@+id/btnMultiplicacion"
+        android:layout_width="362dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:textColor="@color/black"
+        android:text="@string/btnMultiplicacion"
+        android:textSize="20sp"
+        app:cornerRadius="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDivision" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

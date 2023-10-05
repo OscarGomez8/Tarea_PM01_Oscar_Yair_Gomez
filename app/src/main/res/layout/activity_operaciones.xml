@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFEB3B"
+    android:backgroundTint="#FFEB3B"
+    tools:context=".Operaciones">
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="366dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="72dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:textColor="@color/black"
+        android:text="@string/btnRegresar"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMensaje" />
+
+    <EditText
+        android:id="@+id/txtMensaje"
+        android:layout_width="407dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="64dp"
+        android:background="#2196F3"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tarea PM01 - Ejercicio1 - Oscar Yair Gomez</string>
+    <string name="btnSuma">SUMA</string>
+    <string name="btnResta">RESTA</string>
+    <string name="btnDivision">DIVISIÓN</string>
+    <string name="btnMultiplicacion">MULTIPLICACIÓN</string>
+    <string name="btnRegresar">REGRESAR</string>
+
+</resources>
